@@ -6,19 +6,16 @@
 # package are under the same license as the package itself.
 #
 Name:           opsi-windows-support
-
-Requires:       wimtools
-%if 0%{?rhel_version} || 0%{?centos_version} || 0%{?fedora_version}
-Requires:		cabextract
-Requires:		p7zip
-Requires:		p7zip-plugins
-%endif
 Url:            https://www.opsi.org
 License:        AGPL-3.0
 Group:          Productivity/Networking/Opsi
 Version:        4.1.1
 Release:        1
 Source:         opsi-windows-support_4.1.1-1.tar.gz
+Requires:       wimtools
+Requires:       cabextract
+Requires:       p7zip
+Requires:       p7zip-plugins
 Summary:        Install utilities useful for deploying Windows with opsi.
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
