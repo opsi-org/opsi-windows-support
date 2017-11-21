@@ -28,11 +28,8 @@ cp rpm/${packagename}.spec $destdir/
 
 test -e $tmpdir && rm -rf $tmpdir
 mkdir $tmpdir
-cp -r debian gettext OPSI data setup.py ${tmpdir}/
-find ${tmpdir} -iname "*.pyc"   -exec rm "{}" \;
-find ${tmpdir} -iname "*.marks" -exec rm "{}" \;
-find ${tmpdir} -iname "*~"      -exec rm "{}" \;
-find ${tmpdir} -iname "*.svn"   -exec rm -rf "{}" \; 2>/dev/null
+cp -r debian ${tmpdir}/
+find ${tmpdir} -iname "*~" -exec rm "{}" \;
 
 cd ${tmpdir}/
 dpkg-buildpackage -S
