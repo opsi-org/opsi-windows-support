@@ -12,7 +12,7 @@ Group:          Productivity/Networking/Opsi
 Version:        4.1.1
 Release:        1
 Source:         opsi-windows-support_4.1.1-1.tar.gz
-Requires:       wimtools
+Requires:       wimlib
 Requires:       cabextract
 Requires:       p7zip
 Requires:       p7zip-plugins
