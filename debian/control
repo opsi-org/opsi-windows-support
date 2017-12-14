@@ -7,6 +7,6 @@ Build-Depends: debhelper (>= 7.0.50~)
 
 Package: opsi-windows-support
 Architecture: all
-Depends: wget, p7zip-full, cabextract, wimtools, ${shlibs:Depends}, ${misc:Depends}
+Depends: wget, p7zip-full, cabextract, wimtools, smbclient, ${shlibs:Depends}, ${misc:Depends}
 Description: Install utilities useful for deploying Windows with opsi.
 

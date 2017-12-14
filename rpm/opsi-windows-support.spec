@@ -16,6 +16,7 @@ Requires:       wimtools
 Requires:       cabextract
 Requires:       p7zip
 Requires:       p7zip-plugins
+Requires:       samba-client
 Summary:        Install utilities useful for deploying Windows with opsi.
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
