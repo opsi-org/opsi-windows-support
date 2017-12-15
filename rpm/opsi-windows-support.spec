@@ -15,11 +15,6 @@ Source:         opsi-windows-support_4.1.1-1.tar.gz
 Requires:       wimlib
 Requires:       cabextract
 Requires:       samba-client
-Requires:       p7zip
-%if 0%{?rhel_version} || 0%{?centos_version}
-# Only required on CentOS / RHEL
-Requires:       p7zip-plugins
-%endif
 Summary:        Install utilities useful for deploying Windows with opsi.
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build

@@ -1,3 +1,10 @@
+opsi-windows-support (4.1.1-5) stable; urgency=medium
+
+  * Removing dependency to 7z because the modern netboot products do not
+    use it anymore.
+
+ -- Niko Wenselowski <n.wenselowski@uib.de>  Fri, 15 Dec 2017 14:36:22 +0100
+
 opsi-windows-support (4.1.1-4) stable; urgency=medium
 
   * RPM: p7zip-plugins is only required on CentOS / RHEL.
