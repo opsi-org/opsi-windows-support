@@ -1,3 +1,9 @@
+opsi-windows-support (4.1.1-4) stable; urgency=medium
+
+  * RPM: p7zip-plugins is only required on CentOS / RHEL.
+
+ -- Niko Wenselowski <n.wenselowski@uib.de>  Fri, 15 Dec 2017 13:40:00 +0100
+
 opsi-windows-support (4.1.1-3) stable; urgency=medium
 
   * RPM: Depending on wimlib.
