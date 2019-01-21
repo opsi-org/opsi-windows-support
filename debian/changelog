@@ -1,3 +1,9 @@
+opsi-windows-support (4.1.1-6) testing; urgency=medium
+
+  * added dependency: winexe
+
+ -- Mathias Radtke <m.radtke@uib.de>  Mon, 21 Jan 2019 12:17:53 +0100
+
 opsi-windows-support (4.1.1-5) stable; urgency=medium
 
   * Removing dependency to 7z because the modern netboot products do not

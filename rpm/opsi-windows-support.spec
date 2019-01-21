@@ -10,11 +10,12 @@ Url:            https://www.opsi.org
 License:        AGPL-3.0
 Group:          Productivity/Networking/Opsi
 Version:        4.1.1
-Release:        1
-Source:         opsi-windows-support_4.1.1-1.tar.gz
+Release:        6
+Source:         opsi-windows-support_4.1.1-6.tar.gz
 Requires:       wimlib
 Requires:       cabextract
 Requires:       samba-client
+Requires:       winexe
 Summary:        Install utilities useful for deploying Windows with opsi.
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
