@@ -10,8 +10,8 @@ Url:            https://www.opsi.org
 License:        AGPL-3.0
 Group:          Productivity/Networking/Opsi
 Version:        4.1.1
-Release:        6
-Source:         opsi-windows-support_4.1.1-6.tar.gz
+Release:        7
+Source:         opsi-windows-support_4.1.1-7.tar.gz
 Requires:       wimlib
 Requires:       cabextract
 Requires:       samba-client
