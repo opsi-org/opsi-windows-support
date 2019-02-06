@@ -15,9 +15,7 @@ Source:         opsi-windows-support_4.1.1-7.tar.gz
 Requires:       wimlib
 Requires:       cabextract
 Requires:       samba-client
-%if 0%{?suse_version} || 0%{?is_opensuse}
 Requires:       winexe
-%endif
 Summary:        Install utilities useful for deploying Windows with opsi.
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build

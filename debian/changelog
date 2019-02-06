@@ -1,3 +1,9 @@
+opsi-windows-support (4.1.1-8) testing; urgency=medium
+
+  * Winexe now a dependency also for CentOS/RHEL
+
+ -- Mathias Radtke <m.radtke@uib.de>  Wed, 06 Feb 2019 09:31:24 +0100
+
 opsi-windows-support (4.1.1-7) testing; urgency=medium
 
   * corrected RPM requirement for CentOS/RHEL
