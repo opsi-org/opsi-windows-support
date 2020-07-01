@@ -1,0 +1,19 @@
+project:
+  name: opsi-windows-support
+  version: 4.2.0
+  summary: Install utilities useful for deploying Windows with opsi.
+  homepage: http://www.opsi.org
+  licenses:
+    - license: AGPL-3.0
+  maintainer: uib GmbH <info@uib.de>
+
+package:
+  name: opsi-windows-support
+  type: binary
+  architecture: all
+  depends:
+    - wget
+    - cabextract
+    - winexe
+    - wimtools || wimlib
+    - smbclient || samba-client
