@@ -15,5 +15,5 @@ package:
     - wget
     - cabextract
     - winexe
-    - wimtools || wimlib
-    - smbclient || samba-client
+    - wimtools | wimlib
+    - smbclient | samba-client
