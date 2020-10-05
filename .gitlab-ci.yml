@@ -6,7 +6,7 @@ stages:
 .install_tools: &install_tools |
   export DEBIAN_FRONTEND=noninteractive
   apt update
-  apt -y install wget cpio unar sbsigntool
+  apt -y install wget
   wget "$OPSIDEVTOOLS_URL_LINUX_X64" -O opsi-dev-tools.tar.gz
   tar -xvf opsi-dev-tools.tar.gz
 
