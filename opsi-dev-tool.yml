@@ -1,6 +1,6 @@
 project:
   name: opsi-windows-support
-  version: 4.2.0.1
+  version: 4.2.0.2
   summary: Install utilities useful for deploying Windows with opsi.
   homepage: http://www.opsi.org
   licenses:
@@ -9,7 +9,7 @@ project:
 
 package:
   name: opsi-windows-support
-  type: binary
+  type: meta
   architecture: all
   depends:
     - wget
