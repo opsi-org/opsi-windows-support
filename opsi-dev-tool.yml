@@ -1,6 +1,6 @@
 project:
   name: opsi-windows-support
-  version: 4.2.0.2
+  version: 4.2.0.3
   summary: Install utilities useful for deploying Windows with opsi.
   homepage: http://www.opsi.org
   licenses:
@@ -14,6 +14,6 @@ package:
   depends:
     - wget
     - cabextract
-    - winexe
+    - winexe | samba-winexe
     - wimtools | wimlib
     - smbclient | samba-client
